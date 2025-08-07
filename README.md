@@ -38,3 +38,19 @@
 - Cryptography
 - Networking
 - Compiler Design
+
+## How to use my C++ libraries:
+### Build
+```
+git clone https://github.com/SamG101-Developer/ColEx
+cd ColEx
+cmake -B build -GNinja
+cmake --build build
+sudo cmake --install build
+<enter password>
+```
+### Use in a cmake project
+```
+find_package(ColEx REQUIRED)
+target_link_libraries(${PROJECT_NAME} PRIVATE ColEx::ColExLib)
+```
