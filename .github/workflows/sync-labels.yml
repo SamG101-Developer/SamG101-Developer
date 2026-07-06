@@ -16,7 +16,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     env:
-      OWNER: samuelgardner101
+      OWNER: SamG101-Developer
       GH_TOKEN: ${{ secrets.LABEL_SYNC_TOKEN }}
     steps:
       - uses: actions/checkout@v7
