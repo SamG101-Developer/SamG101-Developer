@@ -25,22 +25,26 @@
 ![](https://img.shields.io/badge/hardware-raspberrypi-info?style=flat&logo=raspberrypi&logoColor=white&color=blue)
 
 ## Projects
+
 - S++ Programming Language: Compiler, STL (WIP)
 - SNetwork: Distributed-Network, Onion-Routed, Anonymous-Access (WIP)
-- SBrowser: Browser Engine API Immplementations (WIP)
 - Mercury: Intra-Network E2E Encrypted IPv6 Messaging + Server-Queue
-- Whatsapp Auto-Translator Tool
+- SBrowser: Browser Engine API Implementations (WIP)
+- WhatsApp Auto-Translator Tool
 - Browser Interface: PyQt6 + QtWebEngine Wrapper + Full UI
 - Project Euler
-- Comprhensive Elliptic Curve Library (Python)
+- Comprehensive Elliptic Curve Library (Python)
 
 ## Interests
+
 - Cryptography
 - Networking
 - Compiler Design
 
 ## How to use my C++ libraries:
+
 ### Build
+
 ```
 git clone https://github.com/SamG101-Developer/ColEx
 cd ColEx
@@ -49,7 +53,9 @@ cmake --build build
 sudo cmake --install build
 <enter password>
 ```
+
 ### Use in a cmake project
+
 ```
 find_package(ColEx REQUIRED)
 target_link_libraries(${PROJECT_NAME} PRIVATE ColEx::ColExLib)

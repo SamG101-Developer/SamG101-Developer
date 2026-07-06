@@ -1,0 +1,19 @@
+- name: bug
+  color: d93f0b
+  description: Something isn't working
+
+- name: enhancement
+  color: 09ed2e
+  description: New feature or request
+
+- name: meta
+  color: ff0088
+  description: Repository or project-level concern
+
+- name: refactor
+  color: fbca04
+  description: Refactoring code (no functional changes, no API changes)
+
+- name: todo
+  color: 1d76db
+  description: Incomplete ticket (initial plan, needs more work, etc.)
